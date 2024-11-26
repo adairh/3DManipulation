@@ -51,6 +51,7 @@ public class Tool : MonoBehaviour {
 	}
 
 	public void MouseDown(Vector3 pos, ICADObject sko) {
+		Debug.Log("Mouse down at " + this);
 		OnMouseDown(pos, sko);
 	}
 
@@ -130,6 +131,8 @@ public class Tool : MonoBehaviour {
 		shouldStop = true;
 		//send socket
 		editor.SendSocket();
+		
+		Debug.Log(this);
 
 	}
 

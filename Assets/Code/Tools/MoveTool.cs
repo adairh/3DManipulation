@@ -78,6 +78,10 @@ public class MoveTool : Tool {
 				firstClickCenter = entity.CenterInPlane(null).Eval();
 				deltaR = entity.Radius().Eval() - (firstClickCenter - worldClick).magnitude;
 			} else {
+				if (entity.GetType() == typeof(LineEntity))
+				{
+					Debug.Log("THIS ONE SMELLS GREAT!");
+				}
 				foreach(var ptExp in entity.points) {
 					var dragX = ptExp.x.Drag(dragXP.exp + ptExp.x.Eval());
 					var dragY = ptExp.y.Drag(dragYP.exp + ptExp.y.Eval());

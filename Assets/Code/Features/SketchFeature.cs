@@ -114,7 +114,9 @@ public class SketchFeature : SketchFeatureBase, IPlane {
 
 		var loopsChanged = loops.Any(l => l.Any(e => e.IsChanged()));
 		if(loopsChanged || sketch.topologyChanged) {
-			CreateLoops();
+			//CreateLoops();
+			
+			//this line
 		}
 		loopObj.transform.SetMatrix(transform);
 	}

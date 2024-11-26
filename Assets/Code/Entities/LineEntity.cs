@@ -7,6 +7,20 @@ public class LineEntity : Entity, ISegmentaryEntity {
 
 	public PointEntity p0;
 	public PointEntity p1;
+	public Param length = new Param("l");
+
+	public double len
+	{
+		get
+		{
+			return length.value;
+		}
+		set
+		{
+			length.value = value;
+		}
+	}
+
 
 	public LineEntity(Sketch sk) : base(sk) {
 		p0 = AddChild(new PointEntity(sk));
@@ -19,6 +33,12 @@ public class LineEntity : Entity, ISegmentaryEntity {
 		get {
 			yield return p0;
 			yield return p1;
+		}
+	}
+	
+	public override IEnumerable<Param> parameters {
+		get {
+			yield return length;
 		}
 	}
 
