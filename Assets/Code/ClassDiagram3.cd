@@ -1,0 +1,159 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="AngleConstraint" Collapsed="true">
+    <Position X="22.75" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AABAIUAAAAAAAAAAAQBQAIAgAAAAAIhAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Code\Constraints\AngleConstraint.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CirclesDistance" Collapsed="true">
+    <Position X="22.75" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAARAAAAAAAAIAABQAIAAAAAAAAAAAQAAAAEAAAA=</HashCode>
+      <FileName>Assets\Code\Constraints\CirclesDistance.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Entity" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="31.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIAoAACEAgAEECRAhAhAIABgAADFAiAQAQAQBAEIMAA=</HashCode>
+      <FileName>Assets\Code\Constraints\Constraint.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Constraint" Collapsed="true">
+    <Position X="20.75" Y="0.5" Width="1.5" />
+    <NestedTypes>
+      <Enum Name="Constraint.Option">
+        <TypeIdentifier>
+          <NewMemberFileName>Assets\Code\Constraints\Constraint.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>KGAHISAUkEAQoCBAgEFBkAQgBQBAQEAgAcAAEBEAcgA=</HashCode>
+      <FileName>Assets\Code\Constraints\Constraint.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ValueConstraint" Collapsed="true">
+    <Position X="24" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CAhAAEAEICAIghgAAABAoJBwAggAAGgCAgABAQCgIAA=</HashCode>
+      <FileName>Assets\Code\Constraints\Constraint.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ConstraintExp" Collapsed="true">
+    <Position X="29.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAEAAIABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Code\Constraints\ConstraintExp.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Diameter" Collapsed="true">
+    <Position X="22.75" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAhAAEAACAAAAAQAAABQAJAgAAAAAAgAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Code\Constraints\Diameter.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Equal" Collapsed="true">
+    <Position X="26.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AABAAAAAAAAAAAAABwBQAJAgAAAAAAAAAAAAAAAAAAE=</HashCode>
+      <FileName>Assets\Code\Constraints\Equal.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EqualValue" Collapsed="true">
+    <Position X="26.25" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAgAAAAAAAAAAAAAAABQAJAAAAAAAAAAAAAAAAAAAAE=</HashCode>
+      <FileName>Assets\Code\Constraints\EqualValue.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HVConstraint" Collapsed="true">
+    <Position X="18.25" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAABAAAAAAAAAAAAAABQgAAAAAAAAAAGAAACAAAAEAE=</HashCode>
+      <FileName>Assets\Code\Constraints\HVConstraint.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Length" Collapsed="true">
+    <Position X="22.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAABQgIAAAAAAAAAEAAAAAAAAEAA=</HashCode>
+      <FileName>Assets\Code\Constraints\Length.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LineCircleDistance" Collapsed="true">
+    <Position X="26.25" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABEAAAQAACAAAAAIAABQCYAAAAAAAAAAIQAAAAAAAAA=</HashCode>
+      <FileName>Assets\Code\Constraints\LineCircleDistance.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Parallel" Collapsed="true">
+    <Position X="18.25" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAQAAAAAAAAIAABQAAAAAAAAAAAAAQAAAAAAAAE=</HashCode>
+      <FileName>Assets\Code\Constraints\Parallel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Perpendicular" Collapsed="true">
+    <Position X="18.25" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAQAAAAAAAAIAABQAAAAAAAAAAAAAQAAAAAAAAE=</HashCode>
+      <FileName>Assets\Code\Constraints\Perpendicular.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PointCircleDistance" Collapsed="true">
+    <Position X="22.75" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAABQAIAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Code\Constraints\PointCircleDistance.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PointLineDistance" Collapsed="true">
+    <Position X="26.25" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAEAAACAACAAAAAAAABQAIAIAAAAAAAAIAIAAAAAAAA=</HashCode>
+      <FileName>Assets\Code\Constraints\PointLineDistance.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PointOn" Collapsed="true">
+    <Position X="26.25" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CAgAgECAAAAAAAAAAABQAIAIAAAAAAgAAAIAAAAAAAA=</HashCode>
+      <FileName>Assets\Code\Constraints\PointOn.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PointsCoincident" Collapsed="true">
+    <Position X="18.25" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAEAAAAAAAAAAAQAAAAAEAEAAAAgAAAAAAAIAA=</HashCode>
+      <FileName>Assets\Code\Constraints\PointsCoincident.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PointsDistance" Collapsed="true">
+    <Position X="26.25" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAABQgIAAAAAABAAEAAAAAAAAEAA=</HashCode>
+      <FileName>Assets\Code\Constraints\PointsDistance.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Tangent" Collapsed="true">
+    <Position X="18.25" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAgAAAwAAAAAAAAIAABQgIAAAAQAAAAKAQgAAACAAAA=</HashCode>
+      <FileName>Assets\Code\Constraints\Tangent.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Enum Name="HVOrientation" Collapsed="true">
+    <Position X="29.5" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAgAAAAAAAACAAAAAAABAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Code\Constraints\HVConstraint.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

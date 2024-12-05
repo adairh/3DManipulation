@@ -1,0 +1,115 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="PointEntity" Collapsed="true">
+    <Position X="4.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAoIACEACAEEAAAAARCoIBAAAABAgASAABhAQCAIgA=</HashCode>
+      <FileName>Assets\Code\Entities\PointEntity.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LineEntity" Collapsed="true">
+    <Position X="6.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIAoIACGAAAUAAAABECAAABQAEABAAAAgAAAAACAIAA=</HashCode>
+      <FileName>Assets\Code\Entities\LineEntity.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="FunctionEntity" Collapsed="true">
+    <Position X="9" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAooBGCABAQAIABAAAQkABQAEQBAACCggxgAACJIgA=</HashCode>
+      <FileName>Assets\Code\Entities\FunctionEntity.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="IEntityUtils" Collapsed="true">
+    <Position X="8.75" Y="8.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAABEBABBAAAAACAACAIGAIgCAAAARAAiQQAAAAAEAA=</HashCode>
+      <FileName>Assets\Code\Entities\Entity.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Entity">
+    <Position X="2.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIAoAACEAgAEECRAhAhAIABgAADFAiAQAQAQBAEIMAA=</HashCode>
+      <FileName>Assets\Code\Constraints\Constraint.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="EllipseEntity" Collapsed="true">
+    <Position X="6.75" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>GAgoIACAAAAAAAAAgACQgABAAAABAACCIAAAAICIAAA=</HashCode>
+      <FileName>Assets\Code\Entities\EllipseEntity.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="CircleEntity" Collapsed="true">
+    <Position X="4.75" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAgoIACICAAEAAAAgAAAgABAAAABAACCAAAAAICIAAA=</HashCode>
+      <FileName>Assets\Code\Entities\CircleEntity.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="ArcEntity" Collapsed="true">
+    <Position X="11" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QIgoIACCCAAUAAAABAAQAABQAEABAACAgAAAAAAIAAE=</HashCode>
+      <FileName>Assets\Code\Entities\ArcEntity.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Constraint">
+    <Position X="14.25" Y="1.25" Width="1.5" />
+    <NestedTypes>
+      <Enum Name="Constraint.Option" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Assets\Code\Constraints\Constraint.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>KGAHISAUkEAQoCBAgEFBkAQgBQBAQEAgAcAAEBEAcgA=</HashCode>
+      <FileName>Assets\Code\Constraints\Constraint.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ValueConstraint">
+    <Position X="17" Y="2.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CAhAAEAEICAIghgAAABAoJBwAggAAGgCAgABAQCgIAA=</HashCode>
+      <FileName>Assets\Code\Constraints\Constraint.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Interface Name="IEntity" Collapsed="true">
+    <Position X="8.75" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAoAACAAAAEAAAAAAAAIABAAAABAgAAAAAAAAAIAAA=</HashCode>
+      <FileName>Assets\Code\Entities\Entity.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="ISegmentaryEntity" Collapsed="true">
+    <Position X="8.75" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAACAAAQAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Code\Entities\Entity.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="ILoopEntity" Collapsed="true">
+    <Position X="8.75" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAA=</HashCode>
+      <FileName>Assets\Code\Entities\Entity.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Enum Name="IEntityType" Collapsed="true">
+    <Position X="8.75" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAACAAAAgAAAAIAAEEIAAAgAAIAAAAIAAAABAAA=</HashCode>
+      <FileName>Assets\Code\Entities\Entity.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

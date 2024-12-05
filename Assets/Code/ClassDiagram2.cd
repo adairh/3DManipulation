@@ -1,0 +1,301 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1" GroupingSetting="Access">
+  <Class Name="AngleTool" Collapsed="true">
+    <Position X="37.75" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAIAAAAAAEAAAAAAAAAAAghBAAIAAAIAACAAAAAAA=</HashCode>
+      <FileName>Assets\Code\Tools\AngleTool.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ArcTool" Collapsed="true">
+    <Position X="39.75" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAEQAAAAAAAAAAggBAAAAAAIAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Code\Tools\ArcTool.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CircleTool" Collapsed="true">
+    <Position X="41.75" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAEQAAAAAAAAAAggBAAAAAAIAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Code\Tools\CircleTool.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CopyTool" Collapsed="true">
+    <Position X="44" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Code\Tools\CopyTool.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DistanceTool" Collapsed="true">
+    <Position X="46.25" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAEAAAAAAAAAAAiABABIAAAIAACAAAAAAg=</HashCode>
+      <FileName>Assets\Code\Tools\DistanceTool.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EllipseTool" Collapsed="true">
+    <Position X="48.5" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAEQAAAAAAAAAAggBAAAAAAIAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Code\Tools\EllipseTool.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EqualTool" Collapsed="true">
+    <Position X="50.75" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAEAAAAAAAAAACgBAAAAAAAIAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Code\Tools\EqualTool.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ExportCurrentSTLTool" Collapsed="true">
+    <Position X="37.75" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Code\Tools\ExportCurrentSTLTool.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ExportSTLTool" Collapsed="true">
+    <Position X="39.75" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Code\Tools\ExportSTLTool.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ExtrusionTool" Collapsed="true">
+    <Position X="41.75" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Code\Tools\ExtrusionTool.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FullscreenTool" Collapsed="true">
+    <Position X="44" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Code\Tools\FullscreenTool.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FunctionTool" Collapsed="true">
+    <Position X="48.5" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAEQAAAAAAAAAAggBAAAAAAIAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Code\Tools\FunctionTool.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HelpTool" Collapsed="true">
+    <Position X="50.75" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAEAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Code\Tools\HelpTool.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HVTool" Collapsed="true">
+    <Position X="52.75" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAEAAAAAAAAAAAgAEACIAAAIAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Code\Tools\HVTool.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ImportDXFTool" Collapsed="true">
+    <Position X="37.75" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAgAgAAAAAAIAAABBAAAAAAAAAAAAAEAAAAAEAAAAAA=</HashCode>
+      <FileName>Assets\Code\Tools\ImportDXFTool.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="ImportSTLTool" Collapsed="true">
+    <Position X="39.75" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAgAAAAAAIAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Code\Tools\ImportSTLTool.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="LengthTool" Collapsed="true">
+    <Position X="41.75" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAEAAAAAAAAAAAgABAAIAAAIAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Code\Tools\LengthTool.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LinearArrayTool" Collapsed="true">
+    <Position X="46.25" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Code\Tools\LinearArrayTool.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LineTool" Collapsed="true">
+    <Position X="48.5" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAEQAAAAAAAAAAggBAAAAAAIAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Code\Tools\LineTool.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LoadTool" Collapsed="true">
+    <Position X="50.75" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAgAAAAAAIAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Code\Tools\LoadTool.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="MidPointTool" Collapsed="true">
+    <Position X="52.75" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAEAAAAAAAAAAAgAEAAAAAAIAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Code\Tools\MidPointTool.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MoveTool" Collapsed="true">
+    <Position X="37.75" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AISQAEAAAEAECMgCMAKEAAAgkBBIABEAIACCAEAGABI=</HashCode>
+      <FileName>Assets\Code\Tools\MoveTool.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="NewTool" Collapsed="true">
+    <Position X="39.75" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Code\Tools\NewTool.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ObjectsListTool" Collapsed="true">
+    <Position X="44" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABAAAkAAAAAEAECAAAAAAAAgAAAABBAAIAAAAABAAAA=</HashCode>
+      <FileName>Assets\Code\Tools\ObjectsListTool.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ParallelTool" Collapsed="true">
+    <Position X="46.25" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAEAAAAAAAAAAAgBAAAAAAAIAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Code\Tools\ParallelTool.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PasteTool" Collapsed="true">
+    <Position X="48.5" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Code\Tools\PasteTool.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PerpendicularTool" Collapsed="true">
+    <Position X="50.75" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAEAAAAAAAAAAAgBAAAAAAAIAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Code\Tools\PerpendicularTool.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PointsCoincidentTool" Collapsed="true">
+    <Position X="52.75" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAEAAAAAAAAAAAgAEAAAAAAIAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Code\Tools\PointsCoincidentTool.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PointTool" Collapsed="true">
+    <Position X="37.75" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Code\Tools\PointTool.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RedoTool" Collapsed="true">
+    <Position X="41.75" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Code\Tools\RedoTool.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RemoveTool" Collapsed="true">
+    <Position X="44" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Code\Tools\RemoveTool.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RevolveTool" Collapsed="true">
+    <Position X="46.25" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAEAAAAAAEAAAAgAAAAAAEAIEAAAAAAAAA=</HashCode>
+      <FileName>Assets\Code\Tools\RevolveTool.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SaveGCodeTool" Collapsed="true">
+    <Position X="48.5" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAEAAAAAAAAAAAAAAAAAAEAAAAAAAAAACA=</HashCode>
+      <FileName>Assets\Code\Tools\SaveGCodeTool.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SaveTool" Collapsed="true">
+    <Position X="50.75" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Code\Tools\SaveTool.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SketchTool" Collapsed="true">
+    <Position X="52.75" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAEAAAAAAAAAAAgAAAAAAEAIFIAAAAAAAA=</HashCode>
+      <FileName>Assets\Code\Tools\SketchTool.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SliceTool" Collapsed="true">
+    <Position X="39.75" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAEAAAAAAAAAAAAAAAAAAEAAAAAAAAAACA=</HashCode>
+      <FileName>Assets\Code\Tools\SliceTool.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SplineTool" Collapsed="true">
+    <Position X="41.75" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAEQAAAAAAAAAAggBAAAAAAIABAAAAAAAA=</HashCode>
+      <FileName>Assets\Code\Tools\SplineTool.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SplitTool" Collapsed="true">
+    <Position X="44" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Code\Tools\SplitTool.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TangentTool" Collapsed="true">
+    <Position X="46.25" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAEAAAAAAAAAAAgBAAAAAAAIAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Code\Tools\TangentTool.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Tool" Collapsed="true">
+    <Position X="45.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIDAAAAwACBEAEBAMAAAEAEgADACEgNIIQAIgAGCAgA=</HashCode>
+      <FileName>Assets\Code\Tools\Tool.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ToolBar" Collapsed="true">
+    <Position X="47.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABUAAQAAACAAEAAAIAABEAAAAABAAAAAAAQBgEAAAAA=</HashCode>
+      <FileName>Assets\Code\Tools\ToolBar.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UndoTool" Collapsed="true">
+    <Position X="52.75" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Code\Tools\UndoTool.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
