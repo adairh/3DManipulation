@@ -4,3 +4,7 @@
 /.vs
 /*.sdf
 Files
+Logs/AssetImportWorker0.log
+Logs/AssetImportWorker0.log
+Assets/Code/External/geometry3Sharp
+Assets/Code/External/UnityRuntimeInspector
