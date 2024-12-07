@@ -5,7 +5,7 @@ using UnityEngine.UI;
 using System.Net.Http;
 using System.Threading.Tasks;
 using TMPro;
-using Newtonsoft.Json;  // Import the Newtonsoft.Json namespace
+using Newtonsoft.Json;
 
 public class ChatBox : MonoBehaviour
 {
@@ -15,9 +15,8 @@ public class ChatBox : MonoBehaviour
     public GameObject messagePrefab;
     public ScrollRect scrollRect;
 
-    private string apiUrl = "https://api.openai.com/v1/chat/completions"; // Correct API URL for chat completions
-    private string apiKey = ""; // Your OpenAI API key
-
+    private string apiUrl = "https://api.openai.com/v1/chat/completions";
+    private string apiKey = "";
     void Start()
     {
         sendButton.onClick.AddListener(OnSendButtonClicked);
@@ -37,13 +36,10 @@ public class ChatBox : MonoBehaviour
     private IEnumerator GetAIResponse(string prompt)
     {
         AppendMessage("Assistant: Typing...");
-        yield return new WaitForSeconds(1); // Simulate typing delay
+        yield return new WaitForSeconds(1);
 
-        Debug.Log("Fetching AI response...");
-
-        // Call the asynchronous function to get the response
         Task<string> task = GetAIResponseAsync(prompt);
-        yield return new WaitUntil(() => task.IsCompleted);  // Wait until the task is finished
+        yield return new WaitUntil(() => task.IsCompleted);
 
         if (task.Exception != null)
         {
@@ -71,7 +67,6 @@ public class ChatBox : MonoBehaviour
         {
             client.DefaultRequestHeaders.Add("Authorization", $"Bearer {apiKey}");
 
-            // Create the message object to send
             var messages = new List<object>
             {
                 new { role = "user", content = prompt }
@@ -79,13 +74,12 @@ public class ChatBox : MonoBehaviour
 
             var jsonRequestBody = new
             {
-                model = "gpt-3.5-turbo", // The model you're using
+                model = "gpt-3.5-turbo",
                 messages = messages,
                 max_tokens = 100,
                 temperature = 0.5
             };
 
-            // Serialize the JSON request body using Newtonsoft.Json
             var content = new StringContent(JsonConvert.SerializeObject(jsonRequestBody), System.Text.Encoding.UTF8, "application/json");
 
             try
@@ -98,10 +92,8 @@ public class ChatBox : MonoBehaviour
                 }
 
                 string response = await result.Content.ReadAsStringAsync();
-                Debug.Log($"Response: {response}");
-
-                // Deserialize the response JSON using Newtonsoft.Json
                 var jsonResponse = JsonConvert.DeserializeObject<OpenAIResponse>(response);
+
                 if (jsonResponse != null && jsonResponse.choices.Length > 0)
                 {
                     return jsonResponse.choices[0].message.content.Trim();
@@ -122,30 +114,32 @@ public class ChatBox : MonoBehaviour
 
     private void AppendMessage(string message)
     {
-        Debug.Log($"Appending message: {message}");
-
-        // Instantiate a new message prefab (TextMeshProUGUI or any UI element)
         GameObject newMessage = Instantiate(messagePrefab, chatContent);
 
-        // Get the TextMeshProUGUI component from the newly instantiated prefab
+        // Get the TextMeshProUGUI component from the prefab
         TextMeshProUGUI messageText = newMessage.GetComponent<TextMeshProUGUI>();
 
         if (messageText != null)
         {
-            // Set the message text
             messageText.text = message;
+
+            // Optional: Adjust the RectTransform for spacing
+            RectTransform rectTransform = newMessage.GetComponent<RectTransform>();
+            if (rectTransform != null)
+            {
+                rectTransform.sizeDelta = new Vector2(rectTransform.sizeDelta.x, 50); // Adjust height
+            }
         }
         else
         {
             Debug.LogError("Message prefab does not have a TextMeshProUGUI component!");
         }
 
-        // Scroll to the bottom
+        // Force layout rebuild and scroll to the bottom
         Canvas.ForceUpdateCanvases();
-        RectTransform contentRect = chatContent.GetComponent<RectTransform>();
-        contentRect.anchoredPosition = new Vector2(0, 0);  // Scroll to the bottom
-        scrollRect.verticalNormalizedPosition = 0f;  // Make sure the scroll view scrolls to the bottom
+        scrollRect.verticalNormalizedPosition = 0f;  // Ensure the scroll stays at the bottom
     }
+
 
     [System.Serializable]
     public class OpenAIResponse
