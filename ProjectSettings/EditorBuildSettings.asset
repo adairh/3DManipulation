@@ -11,4 +11,7 @@ EditorBuildSettings:
   - enabled: 0
     path: Assets/Scenes/NoteCAM.unity
     guid: 5ee3f0b58ee150d4f85e1105fdc467cb
+  - enabled: 0
+    path: Assets/Scenes/SampleScene.unity
+    guid: 8b1fefca4dde9a64aab65beb59c7ea1a
   m_configObjects: {}

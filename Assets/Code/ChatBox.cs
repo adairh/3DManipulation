@@ -16,7 +16,7 @@ public class ChatBox : MonoBehaviour
     public ScrollRect scrollRect;
 
     private string apiUrl = "https://api.openai.com/v1/chat/completions";
-    private string apiKey = "";
+    private string apiKey = "///";
     void Start()
     {
         sendButton.onClick.AddListener(OnSendButtonClicked);
